@@ -1,0 +1,29 @@
+<!--
+<html>
+<body>
+	Hello World<p>Today is {{today}}</p>
+</body>	
+</html>
+-->
+
+
+<html>
+<body>
+	Hello World<p>Today is {{today}}</p>
+	We are,
+
+	{% if today.day == 5%}
+	the first week of month
+
+	{% elif today.day == 30 %}
+	End of the month
+
+	{% else %}
+	Don't know
+	{% endif%}
+
+</body>	
+</html>
+
+
+
